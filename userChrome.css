@@ -8,7 +8,7 @@
 Customization:
 --------------
 You have to be very careful with that, even if you know CSS. The problem is that Firefox's
-internal CSS rules sometimes differ from web CSS rules. And its logic regarding classes, IDs and 
+internal CSS rules sometimes differ from web CSS rules. And its logic regarding classes, IDs and
 layers differs from (valid) HTML as well.
 
 But you can and should change the tab text color to a light one if you want a dark theme.
@@ -17,7 +17,7 @@ The variables in this file that you can change without risk are followed by the 
 'customizable'.
 
 
-For version updates and comments: see https://github.com/FrankConijn/Firefox-Quantum-Rounded-Tabs. 
+For version updates and comments: see https://github.com/FrankConijn/Firefox-Quantum-Rounded-Tabs.
 I like to hear how you like it.
 
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
@@ -31,12 +31,12 @@ I like to hear how you like it.
 
 
 .tabbrowser-tab .tab-text.tab-label {
-    color: black !important;            /* tab text color - customizable */
+    color: white !important;            /* tab text color - customizable */
 }
 
 
 .tabbrowser-tab[selected="true"] .tab-text.tab-label {
-    color: black !important;            /* tab text color - customizable */
+    color: white !important;            /* tab text color - customizable */
 }
 
 
@@ -62,7 +62,7 @@ I like to hear how you like it.
 
 .tabbrowser-tab:hover,
 .tabbrowser-tab .tab-text.tab-label:hover {
-    cursor: pointer !important; 
+    cursor: pointer !important;
 }
 
 
@@ -100,4 +100,3 @@ I like to hear how you like it.
 #pageActionSeparator, #pocket-button, #pageActionButton {
     display: none !important;               /* customizable: delete if you want the objects back */
 }
-
